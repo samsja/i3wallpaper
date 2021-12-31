@@ -7,6 +7,7 @@ authors = ["sami jaghouar <sami.jaghouar@hotmail.fr>"]
 [tool.poetry.dependencies]
 python = "^3.6"
 i3ipc = "^2.2.1"
+toml = "^0.10.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
