@@ -16,6 +16,8 @@ ex:
 ```toml
 [wallpapers]
 1 = "path_to_your_wallpaper1"
-1 = "path_to_your_wallpaper2"
+2 = "path_to_your_wallpaper2"
 ```
+
+where each of the lines correspond the image you want for the given workspace
 

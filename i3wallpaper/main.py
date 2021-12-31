@@ -30,6 +30,9 @@ def main():
     def on_workspace_focus(self, event: WorkspaceEvent):
         change_wp(event.current.name, wallpapers)
 
+    ## initialize the wallpaper: 
+    change_wp("1",wallpapers)
+
     i3.on(Event.WORKSPACE_FOCUS, on_workspace_focus)
     # Start the main loop and wait for events to come in.
     i3.main()
